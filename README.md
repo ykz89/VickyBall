@@ -1,28 +1,23 @@
-# roBa
-roBaは[keyball](https://github.com/Yowkees/keyball/)に影響を受けたワイヤレスキーボードです  
-![alt text](doc/img/roba.png)
-特徴:
-+ bluetooth(BLE)対応
-+ 分割カラムスタッガード配列(キー数:42)
-+ トラックボール搭載
-+ 水平ロータリーエンコーダ搭載
+# VickyBall
 
-## Whare to Buy
+Based on [KeyBall](https://github.com/Yowkees/keyball) and [roBa](https://github.com/kumamuk-git/roBa).
 
-[BOOTH](https://kumamuk.booth.pm/)にて組み立てキットが購入可能
+This project is forked from [roBa](https://github.com/kumamuk-git/roBa) with the main goal to convert the trackball sensor to use [VIK](https://github.com/sadekbaroudi/vik). The name VickyBall is a combination of [VIK](https://github.com/sadekbaroudi/vik) and [KeyBall](https://github.com/Yowkees/keyball).
+
+Full list of changes:
+- Remove keys to make space for changes
+- Add VIK connectors to trackball module and keyboard
+- Make PCBs reversible
+- Change switch footprint to support MX, Choc and GLP switches
+- Change microcontroller footprint from Xiao nrf52840 to Nice!Nano
+- Add reset button
 
 ## Build Guide
 
-ビルドガイドは[こちら](https://github.com/kumamuk-git/roBa/blob/main/doc/v2/buildguide_v2.md)
+Todo
 
 ## Firmware
 
-ファームウェアのリポジトリは[こちら](https://github.com/kumamuk-git/zmk-config-roBa)  
-デフォルトでは以下のように設定されています。
-+ オートマウスレイヤー：4
-+ スクロールレイヤー：5  
-+ CPI：400
-
-ファームウェア、キーマップの編集手順は[こちら](https://github.com/kumamuk-git/roBa/blob/main/doc/buildguide.md#6%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%81%AE%E7%B7%A8%E9%9B%86)
+Todo
 
 

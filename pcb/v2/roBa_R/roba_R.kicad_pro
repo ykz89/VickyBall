@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -440,8 +441,14 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "keyboard_reversible",
+      "footprints"
+    ],
+    "pinned_symbol_libs": [
+      "vik",
+      "fingerpunch"
+    ]
   },
   "meta": {
     "filename": "roba_R.kicad_pro",
@@ -490,6 +497,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -601,7 +609,7 @@
   "sheets": [
     [
       "d119a1ec-02ff-4c20-98bd-85bc9c63f638",
-      "ルート"
+      "Root"
     ]
   ],
   "text_variables": {}
