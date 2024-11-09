@@ -2838,7 +2838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n (X7R)"
+		(property "Value" "100nF (X7R)"
 			(at 166.37 100.33 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 54.8386 97.663 0)
 			(effects
 				(font
