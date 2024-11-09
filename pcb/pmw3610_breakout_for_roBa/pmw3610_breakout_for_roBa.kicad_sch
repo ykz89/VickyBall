@@ -2424,7 +2424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 82.3468 97.663 0)
 			(effects
 				(font
@@ -2452,15 +2452,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15849"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -2623,6 +2614,7 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 109.22 105.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2630,7 +2622,7 @@
 		(dnp no)
 		(uuid "44f977bc-c116-43dd-8840-c861343be31a")
 		(property "Reference" "C3"
-			(at 111.5568 104.2416 0)
+			(at 106.8832 104.2416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,8 +2630,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 111.5568 106.553 0)
+		(property "Value" "100nF"
+			(at 106.8832 106.553 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,15 +2658,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 109.22 105.41 0)
 			(effects
 				(font
@@ -2717,7 +2700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 180.34 96.52 0)
 			(effects
 				(font
@@ -2745,15 +2728,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 181.61 95.25 0)
 			(effects
 				(font
@@ -2823,15 +2797,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 165.1 85.09 0)
 			(effects
 				(font
@@ -2952,7 +2917,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1uF"
 			(at 54.8386 97.663 0)
 			(effects
 				(font
@@ -2980,15 +2945,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14663"
 			(at 57.15 96.52 0)
 			(effects
 				(font
@@ -3227,7 +3183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n (X7R)"
+		(property "Value" "10nF (X7R)"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -3255,15 +3211,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -3305,7 +3252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3u/25V"
+		(property "Value" "3.3uF/16V"
 			(at 190.5 96.52 0)
 			(effects
 				(font
@@ -3333,15 +3280,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -3384,7 +3322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u (X7R)"
+		(property "Value" "10uF (X7R)"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -3412,15 +3350,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19666"
 			(at 172.72 111.76 0)
 			(effects
 				(font
