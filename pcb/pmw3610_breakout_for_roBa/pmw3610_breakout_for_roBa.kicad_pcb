@@ -832,7 +832,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "f6fc632e-9ee0-4e6c-a888-c992d49e0742")
@@ -887,17 +887,15 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "122f882c-81c9-48a1-9084-3c3ac7cbfc63")
+			(uuid "cba0f244-f666-448f-9264-1ad47eba66e3")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -1065,7 +1063,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10n (X7R)"
+		(property "Value" "10nF (X7R)"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "9222762b-7391-4768-9540-e4763b5b3e4d")
@@ -1119,18 +1117,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "LCSC" "C57112"
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8bae347b-fbb4-4780-bbfd-e57852109f2e")
+			(uuid "da1cda2c-b6e8-46bd-8578-443378fbe74b")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -1298,7 +1294,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100n (X7R)"
+		(property "Value" "100nF (X7R)"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "bbef27f4-e54f-4cbe-b2e6-15f954f101c6")
@@ -1352,18 +1348,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7bde1a4f-81be-4586-ad95-c008a4cf2e50")
+			(uuid "4887f00e-e298-41c0-b77f-106708c60991")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -1531,7 +1525,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(uuid "308893ee-038b-4539-95d2-392851399e9f")
@@ -1585,18 +1579,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C15849"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ae1c6dac-f9e8-45fc-a327-c72d89c8d278")
+			(uuid "894be9fb-9904-4b10-81b1-07f05cf5fbe4")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -1764,7 +1756,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "3.3u/25V"
+		(property "Value" "3.3uF/16V"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "99dcb47b-1d40-4587-9ab4-b89052eac191")
@@ -1818,18 +1810,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "LCSC" "C51412"
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8f9d541e-78e5-4f4f-a706-8095aae12d23")
+			(uuid "65b05bf6-74a7-4ea1-b54b-6143a8655ca8")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -2270,7 +2260,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "82d09b68-287d-46b3-afc9-524c354e4891")
@@ -2324,18 +2314,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "9307234c-eb93-4df6-99e1-5aa5c41d5c65")
+			(uuid "df4ae896-6d63-4431-86e3-f0317207f187")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -2503,7 +2491,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10u (X7R)"
+		(property "Value" "10uF (X7R)"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "6fa628f9-c8e6-4ada-ab0d-6f9905e7c7bb")
@@ -2557,18 +2545,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
+		(property "LCSC" "C2959727"
+			(at 0 0 0)
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "eef36094-2162-46e0-aaeb-31f96fb498ec")
+			(uuid "fa0e41a9-924c-4055-89bd-578d1fb4efb6")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -2736,7 +2722,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "d431c99c-f482-4571-a5ec-2f4d9b0270d7")
@@ -2790,18 +2776,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C57112"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "56a9ff17-8174-4e0f-946f-8c268795a4aa")
+			(uuid "6f189f7d-4370-476b-8283-cb09b1bbd2ed")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -2969,7 +2953,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 0 -1.44 0)
 			(layer "B.Fab")
 			(uuid "7d8d1517-5c34-4518-9930-0e8e4464e1f0")
@@ -3023,18 +3007,16 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C14663"
 			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6533a486-1a35-4156-b372-f09c4f572337")
+			(uuid "a9d4da4d-6eda-4478-bd83-29a0866bb88a")
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -3254,6 +3236,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C22976"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bd19f611-8a95-4eac-b763-ae2d35e4db93")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
