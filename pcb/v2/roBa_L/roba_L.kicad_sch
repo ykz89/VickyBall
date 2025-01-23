@@ -1773,6 +1773,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1961,126 +2081,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-		)
-		(symbol "power:VCC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3592,7 +3592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -3635,71 +3635,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 99.06 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e0f3d68-6383-4b38-be84-9bf3ddf9f9d8")
-		(property "Reference" "#PWR05"
-			(at 95.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 103.4542 74.0918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aec8f0f1-2a0f-48f7-a182-f153c6ef5430")
-		)
-		(instances
-			(project "roba_L"
-				(path "/10ebe2a9-954f-43ec-9eb9-ae4cbd386108"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 168.91 53.34 270)
 		(mirror x)
@@ -3727,7 +3662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 53.34 0)
 			(effects
 				(font
@@ -3862,7 +3797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 91.44 0)
 			(effects
 				(font
@@ -3932,7 +3867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 109.22 0)
 			(effects
 				(font
@@ -4070,7 +4005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 72.39 0)
 			(effects
 				(font
@@ -4208,7 +4143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 72.39 0)
 			(effects
 				(font
@@ -4682,7 +4617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 53.34 0)
 			(effects
 				(font
@@ -4818,7 +4753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -5189,71 +5124,6 @@
 			(project "roba_L"
 				(path "/10ebe2a9-954f-43ec-9eb9-ae4cbd386108"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 111.76 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bf25142-7722-4297-a62b-76d74dbb1db6")
-		(property "Reference" "#PWR07"
-			(at 111.76 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 112.1918 163.2458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dff3c162-c3d6-433a-ac77-f409868fe050")
-		)
-		(instances
-			(project "roba_L"
-				(path "/10ebe2a9-954f-43ec-9eb9-ae4cbd386108"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 109.22 0)
 			(effects
 				(font
@@ -5754,7 +5624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 53.34 0)
 			(effects
 				(font
@@ -5890,7 +5760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 109.22 0)
 			(effects
 				(font
@@ -5933,6 +5803,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767ebc08-91ee-4344-a1ca-c1587e932bea")
+		(property "Reference" "#PWR05"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 111.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315782d5-344c-48a7-8cc7-aad20b9c8995")
+		)
+		(instances
+			(project "roba_L"
+				(path "/10ebe2a9-954f-43ec-9eb9-ae4cbd386108"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 187.96 72.39 270)
 		(mirror x)
@@ -5960,7 +5896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -6096,7 +6032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 91.44 0)
 			(effects
 				(font
@@ -6232,7 +6168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -6565,7 +6501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -6635,7 +6571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 72.39 0)
 			(effects
 				(font
@@ -6705,7 +6641,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 72.39 0)
 			(effects
 				(font
@@ -6909,7 +6845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 91.44 0)
 			(effects
 				(font
@@ -7243,7 +7179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 53.34 0)
 			(effects
 				(font
@@ -7520,7 +7456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 109.22 0)
 			(effects
 				(font
@@ -7590,7 +7526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -7765,6 +7701,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19b1aaf-5245-48c7-92fe-eb9b9a85ef60")
+		(property "Reference" "#PWR02"
+			(at 95.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e0eebfe-02b8-434c-955d-19f481a4117d")
+		)
+		(instances
+			(project ""
+				(path "/10ebe2a9-954f-43ec-9eb9-ae4cbd386108"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 207.01 53.34 270)
 		(mirror x)
@@ -7792,7 +7795,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 53.34 0)
 			(effects
 				(font
@@ -7929,7 +7932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "roBa:Diode_SMD"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 91.44 0)
 			(effects
 				(font
