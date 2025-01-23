@@ -502,6 +502,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C479750"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "83039d77-02df-421e-b5bf-3c45a0e30ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d3f42dbb-4909-4336-8cde-25bdbd8bcd61")
 		(sheetname "Root")
 		(sheetfile "pmw3610_breakout_for_roBa.kicad_sch")
@@ -2039,6 +2051,18 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C150796"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b33a39d1-8cb3-498c-a069-39a46374711d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
