@@ -119,13 +119,13 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
-        "min_text_thickness": 0.05,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pmw3610_breakout_vik.kicad_pro",
+    "filename": "pmw3610_breakout_for_roBa.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "pmw3610_my_breakout.dsn",
-      "step": "pmw3610_breakout_vik.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
